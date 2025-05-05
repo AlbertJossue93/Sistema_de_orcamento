@@ -1,0 +1,77 @@
+# Relatório de Desenvolvimento do Sistema de Orçamento e Propostas Comerciais
+
+**Período de Desenvolvimento:** Março a Abril de 2025
+
+---
+
+## 📅 03/04/2025 - Relatório de Atividades
+- **Criação do Repositório Git:** Criado por Albert para versionamento e colaboração.
+- **Liberação para o Grupo:** Acesso concedido a todos os membros.
+- **Definição dos Módulos:** Identificação inicial das funcionalidades essenciais.
+- **Pesquisa de Sistemas Existentes:** Análise de soluções disponíveis no mercado.
+- **Escolha Tecnológica:** PHP com Laravel.
+- **Criação do Protótipo:** Início no Figma com prazo estimado de 15 a 20 dias.
+
+---
+
+## 🎨 05/04/2025 - Prototipação das Telas
+- Desenvolvimento das telas no [Figma](https://www.figma.com/link-do-prototipo).
+- Telas: Login, cadastro, permissões, serviços, produtos e relatórios PDF.
+
+---
+
+## 🤝 10/04/2025 - Reunião de Alinhamento
+- Discussão via Meet sobre campos e fluxos das telas.
+- Ajustes finais no protótipo Figma.
+
+---
+
+## 🧩 14/04/2025 - Definição dos Módulos
+**Módulos:**
+1. **Gestão de Usuários:**
+   - Login, Cadastro e Permissões (Admin, Padrão, Gestor).
+2. **Gestão de Serviços:**
+   - Cadastro de Serviços e Produtos com valores.
+3. **Gestão de Comunicação:**
+   - Envio e confirmação de propostas, E-mail, WhatsApp e alertas.
+4. **Gestão de Orçamentos:**
+   - Geração personalizada, assinatura digital, histórico, e relatórios PDF.
+
+---
+
+## ✅ 20/04/2025 - Finalização do Protótipo
+- Prototipação concluída com ajustes visuais e funcionais.
+- [Link do Protótipo - Figma](https://www.figma.com/link-do-prototipo)
+
+---
+
+## 📃 21/04/2025 - Regras de Negócio
+- Estruturação completa das regras de cada módulo.
+- Destaques:
+  - Tipos de usuários e permissões
+  - Cadastro de serviços/produtos com valor
+  - Geração de orçamentos com envio automático
+  - Integração com assinatura digital
+
+---
+
+## 🧾 25/04/2025 - Finalização da Documentação de Regras
+- Revisão e ajuste das regras de negócio.
+- [Documento das Regras - Notion ou Drive](https://link-da-regra)
+
+---
+
+## 🔜 Próximos Passos
+
+**Backend (Laravel):**
+- Instalação e configuração do Laravel
+- Criação das rotas, controllers e autenticação
+
+**Frontend:**
+- Views com Blade e integração com backend
+
+**Documentação:**
+- Técnica (para devs) e simples (para usuários finais)
+
+---
+
