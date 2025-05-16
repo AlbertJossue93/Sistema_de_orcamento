@@ -3,7 +3,6 @@
 
 @section('content')
 
-
 <div class="container d-flex justify-content-center align-items-center min-vh-100">
     <div class="row justify-content-center w-100">
         <div class="col-12 col-sm-10 col-md-8 col-lg-6 col-xl-4">
