@@ -13,3 +13,6 @@ Route::view('/cadastro', 'auth.cadastro')-> name('cadastro');
 
 route::view('/recuperarSenha', 'auth.recuperarSenha') -> name('recuperarSenha');
 
+Route::view('/Dashboard', 'auth.Dashboard')->name('Dashboard');
+
+

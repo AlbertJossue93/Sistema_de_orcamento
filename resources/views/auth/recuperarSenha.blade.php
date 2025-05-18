@@ -30,6 +30,10 @@
                         
                         </button>
 
+        <div class="text-center mt-3">
+            <a href="{{route('login')}}" class="text-decoration-none"> Voltar para o login</a>
+        </div>
+
                     </div>
         
                   </div>
