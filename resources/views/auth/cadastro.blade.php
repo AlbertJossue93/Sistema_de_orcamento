@@ -3,6 +3,7 @@
 
 @section('content')
 
+
 <div class="container d-flex justify-content-center align-item-center min-vh-100">
     <div class="row w-100 justify-content-center">
     <div class="col-12 col-sm-10 col-md-8 col-lg-6 col-xl-4">
@@ -24,7 +25,9 @@
                 <input type="password" class= "form-control" id="senha" name="senha" required>
                 
                </div>
-                <button type="submit" class="btn btn-primary w-100">Cadastrar</button>
+                
+               <button type="submit" class="btn btn-primary w-100">Cadastrar</button>
+               
             </form>
         </div>
     </div>
