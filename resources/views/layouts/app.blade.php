@@ -54,8 +54,11 @@
             <a href="#" class="sidebar-brand flex items-center justify-center py-4">
                 <div class="sidebar-brand-icon rotate-n-15">
                     <i class="bi bi-tools text-black text-2xl"></i>
+
                 </div>
-                <div class="sidebar-brand-text mx-3 text-black font-bold">Sistema de Orçamento</div>
+            <div class="sidebar-brand-text mx-3 text-black font-bold">Sistema de Orçamento</div>
+
+            
             </a>
 
             <!-- Divider -->
@@ -113,17 +116,52 @@
             </li>
 
 
-            <!-- Divider -->
+            <!-- Divisão -->
             <hr class="border-gray-700">
-            <!-- Sidebar Toggler -->
+            <!-- Sidebar  -->
+            <div class="text-center py-2">
+                <button id="sidebarToggle" class="rounded-full bg-gray-700 text-white p-2 focus:outline-none">
+                    <i class="bi bi-list"></i>
+                </button>
+            </div>
+        </ul>   
+        
+
+            <hr class="border-gray-700">
+            <!-- Sidebar -->
             <div class="text-center py-2">
                 <button id="sidebarToggle" class="rounded-full bg-gray-700 text-white p-2 focus:outline-none">
                     <i class="bi bi-list"></i>
                 </button>
             </div>
         </ul>
+        <!-- final do sidebar -->
+         <!-- Content Wrapper -->
+        <div id="content-wrapper" class="content-wrapper flex-1">
+            <!-- -->
+               <div id="content">
+                <!--  -->
+                <nav class="topbar flex items-center justify-between px-4 py-2">
+                    <!-- Sidebar Toggle (Topbar) -->
+                    <button id="sidebarToggleTop" class="btn btn-link d-md-none rounded-full mr-3 focus:outline-none">
+                        <i class="bi bi-list text-gray-600"></i>
+                    </button>
+               </div>
+                    <!-- Topbar de busca -->
+                    <form class="d-none d-sm-inline-block form-inline mr-auto ml-md-3 my-2 my-md-0">
+                        <div class="input-group">
+                            <input type="text" class="form-control bg-gray-100 border-0 rounded-l-lg py-2 px-3"
+                                placeholder="Pesquisar..." aria-label="Search">
+                            <button class="btn bg-primary text-white rounded-r-lg py-2 px-3" type="button">
+                                <i class="bi bi-search"></i>
+                            </button>
+                         </div>
+                        
+                    </form>
 
+              </div>
 
+       </div>
      @yield('content')
      
 </body>
