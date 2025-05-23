@@ -1,11 +1,11 @@
     @extends('layouts.app')
-    @section('title', 'Dashboard')
+    @section('title', 'dashboard')
     @section('content')
 
 
    <div class="container-fluid py-5">
     <h1 class="h3 mb-2 text-gray-800"><i class="bi bi-speedometer2 me-2"></i>Dashboard</h1>
-    <p class="mb-4">Bem-vindo ao Sistema de Orçamentos, !</p>
+    <p class="mb-4">Bem-vindo ao Sistema de Orçamentos</p>
 
     <div class="row g-4">
         <!-- Card Usuários -->
@@ -36,3 +36,4 @@
                 
             </div>
         </div>
+@endsection
