@@ -21,9 +21,9 @@
 <body class="bg-gray-50 font-sans">
 
         <!-- Conteúdo da página -->
-        <main class="p-5">
+   
             @yield('content')
         </main>
     </div>
+</div>
 </html>
-
