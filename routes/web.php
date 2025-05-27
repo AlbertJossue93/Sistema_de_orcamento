@@ -13,7 +13,7 @@ Route::middleware('guest')->group(function () {
 });
 
 // Rotas protegidas (somente logado)
-Route::middleware('auth')->group(function () {
-    Route::view('/dashboard', 'dashboard')->name('dashboard');
-    // Aqui você pode adicionar outras rotas protegidas
+Route::middleware('guest')->group(function () {
+    Route::view('/dashboard', 'auth.dashboard')->name('dashboard');
+
 });
