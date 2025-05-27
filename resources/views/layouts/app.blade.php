@@ -23,7 +23,7 @@
         <!-- Conteúdo da página -->
    
             @yield('content')
-        </main>
+       
     </div>
 </div>
 </html>

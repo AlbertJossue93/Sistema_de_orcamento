@@ -1,9 +1,8 @@
     <!-- Sidebar -->
    
    
-   
-   
-    <div id="sidebar" class="fixed flex flex-col h-screen w-64 bg-gradient-to-b from-gray-800 to-gray-900 text-white z-50 transition-all duration-300 md:translate-x-0 -translate-x-full">
+
+     <div id="sidebar" class="fixed flex flex-col h-screen w-64 bg-gradient-to-b from-gray-800 to-gray-900 text-white z-50 transition-all duration-300 md:translate-x-0 -translate-x-full">
         <div class="font-semibold text-xl p-5 text-center bg-gray-900">
             <i class="bi bi-tools mr-2"></i>Sistema de Orçamento
         </div>

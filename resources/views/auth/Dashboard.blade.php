@@ -8,8 +8,8 @@
     @include('sidbar') {{-- Certifique-se de que o nome do arquivo está correto: sidbar.blade.php --}}
 
     <div class="container">
-        <h1 class="h3 mb-2 text-gray-800"><i class="bi bi-speedometer2 me-2"></i>Dashboard</h1>
-        <p class="mb-4"></p>
+        
+        <p class="mb-4" style="padding:1rem;"></p>
 
         <div class="row g-4">
             <!-- Card Usuários -->
