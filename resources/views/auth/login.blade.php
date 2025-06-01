@@ -1,6 +1,9 @@
 @extends('layouts.app')
 @section('content')
 
+
+
+
 <div class="container">
     <div class="row justify-content-center" style="padding: 3rem;">
         <div class="col-md-6">

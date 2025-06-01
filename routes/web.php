@@ -17,3 +17,9 @@ Route::middleware('guest')->group(function () {
     Route::view('/dashboard', 'auth.dashboard')->name('dashboard');
 
 });
+
+Route::view('/servicos/cadastrarServico', 'servicos.cadastrarServico')->name('servicos.cadastrarservicos');
+
+Route::view('/servicos/editar', 'servicos.editar')->name('servicos.editar');
+
+
